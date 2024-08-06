@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Overpass", sans-serif;
+}
+
+body {
+    background-color: #121417;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+
+
+.container {
+    background-color: #252d37;
+    width: 450px;
+    height: 450px;
+    border-radius: 25px;
+}
+
+#border-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px 25px;
+    background-color: #374250;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.container h1 {
+    color: #fff;
+    font-weight: 700;
+    margin-left: 25px;
+}
+
+.container p {
+    color: #ffffff96;
+    font-weight: 400;
+    margin: 15px 25px;
+    line-height: 25px;
+}
+
+.container-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.button-avaliation {
+    background-color: #374250;
+    color: #fff;
+    margin-top: 10px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border-style: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.button-avaliation:hover {
+    background-color: #fb7413;
+    color: #000;
+    cursor: pointer;
+}
+
+.container-submit-button {
+    display: flex;
+    justify-content: center;
+}
+
+#button-submit {
+    background-color: #fb7413;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+    width: 400px;
+    height: 50px;
+    border-radius: 15px;
+    border-style: none;
+    
+}
+
+#button-submit:hover {
+    background-color: #fff;
+    cursor: pointer;
+}
