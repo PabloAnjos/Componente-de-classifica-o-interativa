@@ -103,7 +103,7 @@ main {
 @media (min-width: 375px) and (max-width: 768px) {
     .container {
         width: 300px;
-        height: 400px;
+        height: 420px;
     }
 
     #border-image {
@@ -115,15 +115,17 @@ main {
         font-size: 30px;
     }
 
+    .container-buttons {
+        gap: 15px;
+    }
+
     .button-avaliation {
-        width: 35px;
-        height: 35px;
+        width: 40px;
+        height: 40px;
     }
 
     #button-submit {
         width: 250px;
         height: 40px;
     }
-
-
 }
