@@ -96,3 +96,34 @@ main {
     background-color: #fff;
     cursor: pointer;
 }
+
+
+/* RESPONSIVIDADE */
+
+@media (min-width: 375px) and (max-width: 768px) {
+    .container {
+        width: 300px;
+        height: 400px;
+    }
+
+    #border-image {
+        width: 40px;
+        height: 40px;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .button-avaliation {
+        width: 35px;
+        height: 35px;
+    }
+
+    #button-submit {
+        width: 250px;
+        height: 40px;
+    }
+
+
+}
