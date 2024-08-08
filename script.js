@@ -1,2 +1,9 @@
-const backgroudFundo = document.querySelector('.container');
 
+
+
+
+// Redirecionando usuario para pagina de agradecimento ao clicar no botao
+
+function submitReview() {
+    window.location.href = 'assessment.html';
+}
