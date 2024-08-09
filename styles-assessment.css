@@ -75,6 +75,10 @@ p {
         line-height: 22px;
         margin: 20px;
     }
+
+    p#mesage-selected-avaliation {
+        margin-left: 50px;
+    }
 }
 
 
