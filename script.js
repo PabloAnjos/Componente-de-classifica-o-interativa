@@ -21,16 +21,3 @@ function submitReview() {
 
     });
 });
-
-
-
-
-    
-
-
-
-
-
-
-
-
