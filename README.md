@@ -13,6 +13,7 @@
   <tr>
     <td>5</td>
     <td>3</td>
+    <td>ECMAScript 2023</td>
   </tr>
 </table>
 

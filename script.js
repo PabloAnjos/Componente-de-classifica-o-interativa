@@ -9,6 +9,7 @@ function submitReview() {
 
 }
 
+
  // Adiciona o evento de clique a todos os botões
 
     buttonsNumbers.forEach(button => {
@@ -17,6 +18,7 @@ function submitReview() {
         // Muda a cor de fundo apenas do botão clicado
         button.style.backgroundColor = 'white'; 
         button.style.color = 'black';
+
     });
 });
 
