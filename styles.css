@@ -69,6 +69,10 @@ main {
     font-weight: 400;
 }
 
+.cor-alterada {
+    background-color: #374250;
+}
+
 .button-avaliation:hover {
     background-color: #fb7413;
     color: #000;
