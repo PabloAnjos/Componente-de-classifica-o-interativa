@@ -1,4 +1,5 @@
-
+const buttonsNumbers = document.querySelectorAll('.button-avaliation');
+const mesageNumberAvaliation = document.querySelector('#mesage-selected-avaliation');
 
 
 
@@ -6,4 +7,30 @@
 
 function submitReview() {
     window.location.href = 'assessment.html';
+    
 }
+
+ // Adiciona o evento de clique a todos os botões
+
+    buttonsNumbers.forEach(button => {
+    button.addEventListener('click', () => {
+
+        // Muda a cor de fundo apenas do botão clicado
+        button.style.backgroundColor = 'white'; 
+        button.style.color = 'black';
+
+    });
+});
+
+
+
+
+    
+
+
+
+
+
+
+
+
