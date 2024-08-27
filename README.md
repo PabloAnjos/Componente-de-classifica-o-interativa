@@ -1,3 +1,7 @@
+![image](https://github.com/user-attachments/assets/9c55e98e-3734-426c-ba5d-5987390fa8a3)
+
+
+
 ## Descrição
 
 > Este é um pequeno projeto agradável para interações do usuário. Este projeto permite que usuários avaliem sua satisfação de um produto ou um atendimento.
